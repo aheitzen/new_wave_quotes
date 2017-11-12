@@ -1,0 +1,33 @@
+:root {
+	--main-yellow: #FDF035;
+	--main-pink: #DA1A8C;
+	--main-blue: #22A9FB;
+	--secondary-blue: #233A93;
+	--large-font: 70px;
+	--small-font: 40px;
+	--main-font: 'Archivo Black', sans-serif;
+	--secondary-font: 'Tenor Sans', sans-serif;
+}
+
+html, body {
+	background: linear-gradient(180deg, var(--main-pink) 50%, var(--main-yellow) 50%);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	margin: 0;
+}
+
+p {
+	font-family: var(--main-font);
+	color: var(--main-blue);
+	font-size: var(--large-font);
+	mix-blend-mode: luminosity;
+	margin-left: 30px;
+	margin-top: 90px;
+}
+
+span {
+	font-family: var(--secondary-font);
+	color: var(--secondary-blue);
+	font-size: var(--small-font);
+}
